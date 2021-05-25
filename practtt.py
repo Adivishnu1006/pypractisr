@@ -144,4 +144,40 @@ os.remove("C:\\Users\\personal\\Documents\\example.txt")
 
 
 
-print("hi")
+'''print("welcome  to ATM")
+print("insert the card")
+pin=1234
+pin1=int(input("please enter the pin: "))
+if pin1==pin:
+    print("1.check your balace: ")
+    print("2.withdraw money")
+    print("3.deposite money")
+    print("4.mini statement")
+    print("5.change password")
+    a=int(input(" choose from the following"))
+    if a== 1:
+        print("the amount in your account is ****")
+    if a == 2:
+       amunt=  int(input("enter the amount to withdraw:  "))
+       print("collect the case")
+        
+else:
+    print("password incorrect")
+    '''
+i=3
+a = 5
+while i >=0:
+    b =int(input("enter the number: "))
+    if b == a:
+        print("password correct")
+        break
+    elif b != a:
+        print("chance 1")
+    elif b != a:
+        print("chance 2")
+
+
+        i = i - 1
+        if i == 0:
+            print("you have exhausted the limit")
+            break
